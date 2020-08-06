@@ -2,12 +2,14 @@
   "include": [
     "src",
     "ambient.d.ts",
-    "test"
+    "test",
+    "commitlint.config.js",
+    "jest.bdd.config.js",
+    "jest.config.js"
   ],
   "exclude": [
     "node_modules",
-    "**/*.spec.ts",
-    "lib",
+    "dist",
     "coverage"
   ],
   "compilerOptions": {
